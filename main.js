@@ -5,10 +5,24 @@ document.addEventListener("scroll", function() {
 })
 
 //dark mode
-function darkMode (){
-  const darkBtn = document.querySelector(".dark-mode-btn");
-    darkBtn.addEventListener("click", () => {
+const darkBtn = document.querySelector(".dark-mode-btn");
+let darkMode = localStorage.getItem("darkMode")
+
+darkBtn.addEventListener("click", function darkSwitch (){
+    if (darkMode === null) {
+        localStorage.setItem("darkMode", true);
         document.body.classList.toggle("dark-mode");
-    })
+    } else if (darkMode === "false"){
+        localStorage.setItem("darkMode", true);
+        document.body.classList.toggle("dark-mode");
+    } else if (darkMode === "true") {
+        localStorage.setItem("darkMode", false);
+        document.body.classList.toggle("dark-mode");
+    }
+})
+
+if(darkMode === "true") {
+    document.body.classList.toggle("dark-mode");
+} else {
+    document.body.classList.remove("dark-mode");
 }
-darkMode ();

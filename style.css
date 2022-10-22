@@ -277,18 +277,8 @@ a.card:hover {
 	text-align: left;
 }
 
-.contact .card {
-	background-color: transparent;
-	box-shadow: none;
-}
-.contact .left {
-	width: 61.8%;
-	padding: 18px;
-	text-align: left;
-}
-.contact .right {
-	width: 38.2%;
-	padding: 18px;
+.img-contact {
+	width: 48%;
 }
 
 .image {

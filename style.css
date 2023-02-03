@@ -423,3 +423,42 @@ a.card:hover {
 .links a:hover, .links .a-hovering {
 	color: var(--white);
 }
+
+.form {
+	width: 80%;
+	padding: 0 0 12px 12px;
+}
+
+form button {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 5px 0 rgba(0, 0, 0, 0.13), 0 3px 1px -2px rgba(0, 0, 0, 0.3);
+}
+
+form button:hover {
+	color: var(--turqoise); 
+	background-color: var(--off-white); 
+}
+
+.input {
+	font-size: 18px;
+	width: 100%;
+	padding: 12px;
+	margin: 8px;
+	outline: 0;
+	border: 1px #bbb solid;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+input[name="Subject"] {
+	display: none;
+}
+
+input[name="Message"] {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	width: 0;
+	z-index: -1;
+}

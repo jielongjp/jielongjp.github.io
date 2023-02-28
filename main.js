@@ -28,7 +28,7 @@ if(darkMode === "true") {
 }
 
 // send form data to sheet
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwkXOXSpBpdQ4LvQiQgvQA3alZIrkUdZyQQbfgiw7ePH5WQTysXmw0DRgoDSpf8dXIC/exec'; // change with each new deployment
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzqxb_X0gNw6slH_W3B6Zj7G9t3EO6TLvr5uo6hagbXQqfhBusRCMi9t4nYMJnM-FHo3A/exec'; // change with each new deployment
 const form = document.forms['sheet-form'];
 const pot = document.querySelector('[name=Subject]');
 const Message = document.querySelector('[name=Message]');

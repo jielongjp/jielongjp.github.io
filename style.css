@@ -159,6 +159,11 @@ a:hover, .a-hovering {
 	width: 50%;
 	float: left;
 }
+@media (max-width: 1200px) {
+	.about .text-wrap {
+		width: 100%;
+	}
+}
 
 .home .img-wrap, .about .img-wrap {
 	width: 50%;

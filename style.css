@@ -66,11 +66,11 @@ a:hover, .a-hovering {
 .url a:hover, .text-wrap a:hover {
 	border-bottom: 1px solid var(--turqoise);
 }
-.icon-link {
+.border-bottom {
 	border-bottom: 1px solid var(--text-grey);
 	display: inline-block;
 }
-.icon-link:hover {
+.border-bottom:hover {
 	border-bottom: 1px solid var(--turqoise);
 }
 
@@ -176,21 +176,21 @@ a:hover, .a-hovering {
 .home img {
 	border-radius: 4px;
 }
-.home .icon-link span {
+.home .border-bottom span {
 	padding: 18px 0;
 	font-size: 18px;
 }
-.footer .icon-link p {
+.footer .border-bottom p {
 	margin: 10px;
 }
-.footer .icon-link i {
+.footer .border-bottom i {
 	font-size: 24px;
 }
 @media (max-width: 400px) {
 	.container {
 		text-align: center;
 	}
-	.footer .icon-link {
+	.footer .border-bottom {
 		display: block;
 		max-width: 100%;
 	}

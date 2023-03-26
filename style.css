@@ -47,6 +47,10 @@ h1 {
 h2 {
 	font-size: 24px;
 }
+.section > h2 {
+	color: var(--dark-grey);
+}
+
 a {
 	text-decoration: none;
 	cursor: pointer;

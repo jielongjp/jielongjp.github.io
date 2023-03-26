@@ -155,7 +155,7 @@ a:hover, .a-hovering {
 }
 @media (max-width: 410px) {
 	.section {
-		padding: 2vh 0;
+		padding: 2vh 3%;
 	}
 }
 

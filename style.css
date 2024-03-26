@@ -180,6 +180,14 @@ a:hover,
   text-align: center;
 }
 
+.img-w-right {
+  width: 50%;
+  overflow: hidden;
+  float: right;
+  padding: 18px;
+  text-align: center;
+}
+
 .home img {
   border-radius: 4px;
 }
